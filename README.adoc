@@ -7,6 +7,7 @@
   <p align="center">
     <img src="https://user-images.githubusercontent.com/292738/153979854-c87c80c8-fb7d-4d94-9d87-da3d102c3bca.png" title="seagull icons" alt="Seagull icons created by Freepik - Flaticon" style="width:30%;height:auto;">
   </p>
+  <p align="center">    <img src="https://user-images.githubusercontent.com/292738/154753843-5993ab04-0da7-4dd5-83d7-bcffa73617ef.png" title="example run" alt="Example Run Image"></p>
 ++++
 
 https://ninjas.cl[image:https://img.shields.io/badge/Ninjas-CL-green.svg?style=flat-square[Ninjas.cl]] https://www.mozilla.org/en-US/MPL/2.0/[image:https://img.shields.io/github/license/ninjascl/wrenbot.svg?style=flat-square[MPL v2]] https://github.com/NinjasCL/wrenbot/actions?query=workflow%3A%22Execute+Tests+Suite%22[image:https://img.shields.io/github/workflow/status/ninjascl/wrenbot/Execute%20Tests%20Suite?label=tests&style=flat-square[Tests]]
