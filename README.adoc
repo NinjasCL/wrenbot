@@ -1,0 +1,75 @@
+:ext-relative:
+:toc: macro
+:toclevels: 3
+
+++++
+  <h1 align="center">Wren Bot 🪶</h1>
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/292738/153979854-c87c80c8-fb7d-4d94-9d87-da3d102c3bca.png" title="seagull icons" alt="Seagull icons created by Freepik - Flaticon" style="width:30%;height:auto;">
+  </p>
+++++
+
+https://ninjas.cl[image:https://img.shields.io/badge/Ninjas-CL-green.svg?style=flat-square[Ninjas.cl]] https://www.mozilla.org/en-US/MPL/2.0/[image:https://img.shields.io/github/license/ninjascl/wrenbot.svg?style=flat-square[MPL v2]] https://github.com/NinjasCL/wrenbot/actions?query=workflow%3A%22Execute+Tests+Suite%22[image:https://img.shields.io/github/workflow/status/ninjascl/wrenbot/Execute%20Tests%20Suite?label=tests&style=flat-square[Tests]]
+
+toc::[]
+
+## 🚀 Environment setup
+
+### Requirements
+
+- https://spring.io/projects/spring-boot[Spring Boot]
+- https://www.oracle.com/java/technologies/downloads/[JRE 11]+
+- https://github.com/wren-lang/wren-cli[WrenCLI] or https://github.com/joshgoebel/wren-console[Wren Console] executable
+
+#### application.properties
+Configure your https://discord.com/developers/applications[discord token] and wren-cli executable path inside https://github.com/NinjasCL/wrenbot/blob/main/src/main/resources/application.properties[application.properties]
+
+#### Run
+
+Execute
+```sh
+./mvnw spring-boot:run
+```
+
+And then
+https://www.alphr.com/add-bots-discord-server/[Add the bot to your server].
+
+You can now send messages and it will return the output of the code.
+
+## ☣️ Warning
+
+Highly experimental, use at your own risk.
+
+## 👩‍💻 Project explanation
+
+_Wrenbot_ is a small https://discord.com[Discord] bot created for testing out _Wren_ scripts inside _Discord_.
+
+## 📘 License
+
+Unless explicitily stated, all source code is under the permissive link:LICENSE.adoc{ext-relative}[MPL v2.0 (Mozilla Public License Version 2.0)] license.
+
+Is a copyleft license that is easy to comply with. You can combine the _MPL version 2.0_ software with a proprietary or differently licensed code.
+
+- If you don’t modify the code inside this library, you will have to provide just a link to the library sources.
+
+- If you modify these libs, you will have to provide just the sources for the modified files (not the entire project).
+
+### More Info
+
+- https://www.mozilla.org/en-US/MPL/2.0/[Mozila MPL 2.0]
+- https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licences[OSS License Comparison]
+- https://shakuro.com/blog/software-licenses-explained/[Software Licenses Explained]
+- https://choosealicense.com/licenses/mpl-2.0/[Choose a License]
+
+## 🤩 Credits
+
+++++
+<p><a href="https://www.flaticon.com/free-icons/seagull" title="seagull icons">Seagull icons created by Freepik - Flaticon</a></p>
+
+<p>
+  Made with <i class="fa fa-heart">&#9829;</i> by
+  <a href="https://ninjas.cl">
+    Ninjas.cl
+  </a>
+</p>
+++++
