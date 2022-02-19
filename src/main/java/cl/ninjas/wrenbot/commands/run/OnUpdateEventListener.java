@@ -4,6 +4,7 @@ import cl.ninjas.wrenbot.EventListener;
 import discord4j.core.event.domain.message.MessageUpdateEvent;
 import reactor.core.publisher.Mono;
 
+@Service
 public class OnUpdateEventListener extends Handler implements EventListener<MessageUpdateEvent> {
 
     @Override
